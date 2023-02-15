@@ -23,9 +23,9 @@ export default function Home() {
           <Image
             className={styles.logo}
             src="/Logo_1.jpg"
-            alt="Next.js Logo"
-            width={500}
-            height={150}
+            alt="Car-star Logo"
+            width={400}
+            height={120}
             priority
           />
         </div>
