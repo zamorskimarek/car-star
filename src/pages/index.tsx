@@ -30,6 +30,14 @@ export default function Home() {
           />
         </div>
         <div>
+          <div className={styles.contact}>
+            <h2>KONTAKT</h2>
+            <h2>TEL. 790 488 414</h2>
+            <h2>EMAIL: info@car-star.pl</h2>
+            <h2 className={styles.h2center}>
+              ADRES: ul. Alfreda Dauna 23, Kraków
+            </h2>
+          </div>
           <h1 className={styles.h1}>
             Nowo otwarty warsztat samochodowy{" "}
             <b className={styles.bold}>Car-Star</b> serdecznie zaprasza.
@@ -37,12 +45,6 @@ export default function Home() {
             ceny. Nasi mechanicy mają wiele lat doświadczenia oraz chętnie
             podejmą się nawet najbardziej skomplikowanych usterek.
           </h1>
-          <div className={styles.contact}>
-            <h2>KONTAKT</h2>
-            <h2>TEL. 790 488 414</h2>
-            <h2>EMAIL: info@car-star.pl</h2>
-            <h2>ADRES: ul. Alfreda Dauna 23, Kraków</h2>
-          </div>
         </div>
       </main>
     </>
