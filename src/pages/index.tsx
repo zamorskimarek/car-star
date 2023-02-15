@@ -15,16 +15,16 @@ export default function Home() {
           content="Dobry mechanik Krakow"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={styles.main}>
         <p>strona w budowie...</p>
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/Logo_1.jpg"
+            src="/Logo_1.png"
             alt="Car-star Logo"
-            width={400}
+            width={380}
             height={120}
             priority
           />
